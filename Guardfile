@@ -33,7 +33,8 @@
 #  * 'just' rspec: 'rspec'
 require 'active_support/inflector'
 
-guard :rspec, all_after_pass: false, cli: '--drb' do
+# guard :rspec, all_after_pass: false, cli: '--drb' do
+guard 'rspec', all_after_pass: false, cmd: 'rspec --drb' do
   require "guard/rspec/dsl"
   dsl = Guard::RSpec::Dsl.new(self)
 
