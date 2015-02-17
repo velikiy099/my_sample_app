@@ -24,6 +24,7 @@ group :test do
   gem 'spork-rails', '4.0.0'
   gem 'guard-spork', '2.1.0'
   gem 'childprocess', '0.5.5'
+  gem 'factory_girl_rails', '4.5.0'
 end
 
 # Use SCSS for stylesheets
@@ -66,5 +67,5 @@ end
 
 group :production do
   gem 'pg', '0.15.1'
-  gem 'rails_12factor', '0.0.2'
+  gem 'rails_12factor', '0.0.3'
 end
