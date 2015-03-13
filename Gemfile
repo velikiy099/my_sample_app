@@ -7,6 +7,9 @@ gem 'bootstrap-sass', '2.3.2.0'
 # gem 'bootstrap-sass', '3.3.3'
 gem 'sprockets', '2.12.3'
 gem 'bcrypt','3.1.10'
+gem 'faker', '1.4.3'
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate'
 gem 'rb-readline'
 
 # Use sqlite3 as the database for Active Record
