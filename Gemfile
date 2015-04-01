@@ -28,7 +28,7 @@ group :test do
   gem 'guard-spork', '2.1.0'
   gem 'childprocess', '0.5.5'
   gem 'factory_girl_rails', '4.5.0'
-  gem 'cucumber-rails', '1.4.2'
+  gem 'cucumber-rails', '1.4.2', :require => false
   gem 'database_cleaner'
 end
 
